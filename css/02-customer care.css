@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family="Inter":wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Baloo Da 2', sans-serif;
+    font-family: '"Inter"', sans-serif;
+    font-family: '"Plus Jakarta Sans"', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: contents;
+}
+
+.container {
+    padding: 28px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customar__profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.customar__name {
+    color: var(--black, #222950);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin: 0 0 5px 0;
+}
+
+.customar__title {
+    color: var(--gray, #8A94A6);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.714%;
+    /* 18.72px */
+    letter-spacing: 0.42px;
+    margin: 0;
+}
+
+.pending-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    background: #F7F8FA;
+    padding: 7px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.pending {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #222950;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(5, 46, 128, 0.06);
+}
+
+.pending p {
+    color: var(--black-2, #595F84);
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    margin: 0;
+    /* 19.2px */
+}
+
+.customar__btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.customar__btn {
+    width: 100%;
+}
+
+.oppo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 47px;
+    padding: 12px 13px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(46, 49, 133, 0.08);
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+}
+
+.oppo:hover {
+    border: 1px solid rgba(0, 122, 255, 0.43);
+    background: #F7FBFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+}
+
+.oppo:hover .customar__nam {
+    color: #007AFF;
+}
+
+.customar__nam {
+    color: var(--black-2, #595F84);
+    font-family: Baloo Da 2;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.customar__count {
+    color: #FF565E;
+    font-family: Plus Jakarta Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+
+
+
+
+
+
+
+.pending-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(46, 49, 133, 0.08);
+    background: #FFF;
+    padding: 15px;
+    margin-bottom: 18px;
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-name p {
+    color: var(--black, #222950);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.profile__right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pending-profile-wrapper {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+    padding: 15px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(46, 49, 133, 0.08);
+
+}
+
+.pending-profile-wrapper .pending-profile {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.button__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+    margin-bottom: 12px;
+}
+
+.view__btn {
+    width: 100%;
+    height: 35px;
+    padding: 7px 16px;
+    border-radius: 7px;
+    background: rgba(245, 98, 98, 0.06);
+    color: #F56262;
+    font-family: "Baloo Da 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.paid__btn {
+    width: 100%;
+    height: 35px;
+    padding: 7px 16px;
+    border-radius: 7px;
+    background: rgba(0, 122, 255, 0.06);
+    color: #007AFF;
+    font-family: "Baloo Da 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 0 15px;
+    margin-bottom: 24px;
+}
+
+.cancel__btn button {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    height: 35px;
+    padding: 7px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: rgba(89, 95, 132, 0.05);
+    color: var(--black-2, #595F84);
+    font-family: "Baloo Da 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+    margin: auto;
+}
